@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Random Lake Pizzaria</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Lake Pizzaria</title>
 
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <div class="flex items-center justify-between h-12 px-4 py-8 text-indigo-100 bg-indigo-400 navbar">
-    <div class="flex items-center gap-4 title">
-      <div class="text-lg">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 20 20" fill="currentColor">
-          <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
-          <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
-        </svg>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="font-main">
+    <div
+      class="flex flex-col items-center px-4 py-3 space-y-1 text-indigo-100 bg-indigo-500 lg:flex-row lg:space-y-0 navbar"
+    >
+      <div class="flex items-center flex-auto gap-4 title">
+        <div class="text-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
+            <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
+          </svg>
+        </div>
+        <div class="title">
+          <h3 class="text-xl font-bold">Random Lake Pizzaria</h3>
+        </div>
       </div>
-      <div class="title">Random Lake Pizzaria</div>
+
+      <!-- <div class="hamburger lg:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </div> -->
+
+      <nav class="text-lg font-semibold">
+        <div
+          class="flex flex-wrap items-center justify-center gap-2 p-2 mt-2 list-none bg-indigo-600 rounded-xl lg:bg-transparent lg:mt-0 lg:p-0"
+        >
+          <ul class="flex gap-4 px-2">
+            <li>
+              <a
+                class="transition duration-100 ease-out cursor-pointer hover:text-white"
+                >Our Story</a
+              >
+            </li>
+            <li>
+              <a
+                class="transition duration-100 ease-out cursor-pointer hover:text-white"
+                >Menu</a
+              >
+            </li>
+            <li>
+              <a
+                class="transition duration-100 ease-out cursor-pointer hover:text-white"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <a
+            class="p-2 text-red-100 transition duration-100 ease-out bg-red-600 rounded-lg cursor-pointer hover:text-white hover:bg-red-700"
+            >(920) 917-1391</a
+          >
+        </div>
+      </nav>
     </div>
-    <nav>
-      <ul class="flex items-center gap-4 list-none">
-        <li>Our Story</li>
-        <li>Menu</li>
-        <li>Contact Us</li>
-        <li>(920) 917-1391</li>
-      </ul>
-    </nav>
-  </div>
-</body>
+  </body>
 </html>
