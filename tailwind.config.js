@@ -3,13 +3,20 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      fontFamiliy: {
-        'main': ['Roboto', 'sans-serif'],
+      fontFamily: {
+        'main': ['Roboto'],
+        'header': ['Nunito'],
+      },
+      rotate: {
+        '270': '270deg',
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      rotate: ['group-hover'],
+      scale: ['group-hover'],
+    },
   },
   plugins: [],
 }

@@ -9,68 +9,71 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="font-main">
-    <div
-      class="flex flex-col items-center px-4 py-3 space-y-1 text-indigo-100 bg-indigo-500 lg:flex-row lg:space-y-0 navbar"
-    >
-      <div class="flex items-center flex-auto gap-4 title">
-        <div class="text-lg">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="w-8 h-8"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
-            <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
-          </svg>
+    <div class="bg-indigo-500 border-b border-indigo-700 shadow-xl nav-wrapper">
+      <div
+        class="flex flex-col items-center max-w-screen-lg px-4 py-3 mx-auto space-y-3 text-indigo-100 lg:flex-row lg:space-y-0 navbar"
+      >
+        <div class="flex items-center flex-auto gap-4 group title">
+          <div class="transition ease-in-out transform 200ms group-hover:rotate-270">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-7 h-7 lg:w-8 lg:h-8"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
+              <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
+            </svg>
+          </div>
+          <div class="title">
+            <h3 class="text-lg font-bold lg:text-xl">Random Lake Pizzaria</h3>
+          </div>
         </div>
-        <div class="title">
-          <h3 class="text-xl font-bold">Random Lake Pizzaria</h3>
-        </div>
-      </div>
 
-      <!-- <div class="hamburger lg:hidden">
+        <!-- <div class="hamburger lg:hidden">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </div> -->
 
-      <nav class="text-lg font-semibold">
-        <div
-          class="flex flex-wrap items-center justify-center gap-2 p-2 mt-2 list-none bg-indigo-600 rounded-xl lg:bg-transparent lg:mt-0 lg:p-0"
-        >
-          <ul class="flex gap-4 px-2">
-            <li>
-              <a
-                class="transition duration-100 ease-out cursor-pointer hover:text-white"
-                >Our Story</a
-              >
-            </li>
-            <li>
-              <a
-                class="transition duration-100 ease-out cursor-pointer hover:text-white"
-                >Menu</a
-              >
-            </li>
-            <li>
-              <a
-                class="transition duration-100 ease-out cursor-pointer hover:text-white"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-          <a
-            class="p-2 text-red-100 transition duration-100 ease-out bg-red-600 rounded-lg cursor-pointer hover:text-white hover:bg-red-700"
-            >(920) 917-1391</a
+        <nav class="text-base font-semibold lg:text-lg">
+          <div
+            class="flex flex-wrap items-center justify-center gap-2 p-2 list-none bg-indigo-600 rounded-xl lg:bg-transparent lg:mt-0 lg:p-0"
           >
-        </div>
-      </nav>
+            <ul class="flex gap-6 px-2 lg:gap-4">
+              <li>
+                <a
+                  class="transition duration-100 ease-out cursor-pointer hover:text-white"
+                  >Our Story</a
+                >
+              </li>
+              <li>
+                <a
+                  class="transition duration-100 ease-out cursor-pointer hover:text-white"
+                  >Menu</a
+                >
+              </li>
+              <li class="md:mr-2 lg:mr-0">
+                <a
+                  class="transition duration-100 ease-out cursor-pointer hover:text-white"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <a
+              class="p-2 text-red-100 transition duration-100 ease-out bg-red-600 rounded-lg cursor-pointer hover:text-white hover:bg-red-700"
+              >(920) 917-1391</a
+            >
+          </div>
+        </nav>
+      </div>
     </div>
   </body>
 </html>
