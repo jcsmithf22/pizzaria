@@ -8,3 +8,8 @@
     src: url(../fonts/Roboto/Roboto-Medium.ttf) format("truetype");
   }
 }
+
+.hideBtn {
+  transform: translateY(100px);
+  opacity: 0;
+}
