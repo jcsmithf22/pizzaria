@@ -36,7 +36,7 @@
     </button>
     <div class="bg-indigo-500 border-b border-indigo-700 shadow-xl nav-wrapper">
       <div
-        class="flex flex-col items-center max-w-screen-lg px-4 py-3 mx-auto space-y-3 text-indigo-100 lg:flex-row lg:space-y-0 navbar"
+        class="flex flex-col items-center max-w-screen-lg px-4 py-3 mx-auto text-indigo-100 lg:flex-row lg:space-y-0 navbar gap-y-4"
       >
         <div class="flex items-center flex-auto gap-4 group title">
           <div
@@ -64,41 +64,45 @@
     </div> -->
 
         <nav class="text-base font-semibold lg:text-lg">
-          <div
-            class="flex flex-wrap items-center justify-center gap-3 p-2 list-none bg-indigo-600 rounded-xl lg:bg-transparent lg:mt-0 lg:p-0"
-          >
-            <ul class="flex gap-6 px-2 lg:gap-4">
+            <ul class="flex flex-wrap items-center justify-center gap-2 gap-y-4 lg:gap-4">
               <li>
                 <a
-                  class="transition duration-100 ease-out cursor-pointer hover:text-white"
+                  class="p-2 transition duration-100 ease-out bg-indigo-600 rounded-lg cursor-pointer hover:bg-indigo-700 lg:hover:bg-transparent lg:bg-transparent hover:text-white"
                   >Our Story</a
                 >
               </li>
               <li>
                 <a
-                  class="transition duration-100 ease-out cursor-pointer hover:text-white"
+                  class="p-2 transition duration-100 ease-out bg-indigo-600 rounded-lg cursor-pointer hover:bg-indigo-700 hover:text-white lg:hover:bg-transparent lg:bg-transparent"
                   >Menu</a
                 >
               </li>
-              <li class="md:mr-2 lg:mr-0">
+              <li class="hidden sm:list-item">
                 <a
-                  class="transition duration-100 ease-out cursor-pointer hover:text-white"
+                  class="p-2 transition duration-100 ease-out bg-indigo-600 rounded-lg cursor-pointer hover:bg-indigo-700 hover:text-white lg:hover:bg-transparent lg:bg-transparent"
                   >Contact Us</a
                 >
               </li>
+              <li>
+                <a
+                  class="p-2 text-red-100 transition duration-100 ease-out bg-red-600 rounded-lg cursor-pointer hover:text-white hover:bg-red-700"
+                  >920-917-1391</a
+                >
+              </li>
             </ul>
-            <a
-              class="p-2 text-red-100 transition duration-100 ease-out bg-red-600 rounded-lg cursor-pointer hover:text-white hover:bg-red-700"
-              >(920) 917-1391</a
-            >
           </div>
         </nav>
       </div>
     </div>
-    <div class="w-full bg-purple-400 blankspace h-96"></div>
-    <div class="w-full bg-red-400 blankspace h-96"></div>
-    <div class="w-full bg-blue-400 blankspace h-96"></div>
-    <div class="w-full bg-gray-400 blankspace h-96"></div>
+    <div
+      class="flex flex-col max-w-screen-lg gap-8 px-4 py-8 mx-auto content-wrapper"
+    >
+      <div class="w-full bg-purple-400 rounded-xl blankspace h-96"></div>
+      <div class="w-full bg-red-400 rounded-xl blankspace h-96"></div>
+      <div class="w-full bg-blue-400 rounded-xl blankspace h-96"></div>
+      <div class="w-full bg-gray-400 rounded-xl blankspace h-96"></div>
+    </div>
+
     <script src="scripts/script.js"></script>
   </body>
 </html>
