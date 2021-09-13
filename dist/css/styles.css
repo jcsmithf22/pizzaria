@@ -581,6 +581,12 @@ video {
   src: url(../fonts/Roboto/Roboto-Medium.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: RobotoSemiBold;
+
+  src: url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+}
+
 .container {
   width: 100%;
 }
@@ -22581,6 +22587,10 @@ video {
 
 .font-header {
   font-family: Nunito;
+}
+
+.font-main-semibold {
+  font-family: RobotoSemiBold;
 }
 
 .text-xs {
@@ -54049,6 +54059,10 @@ video {
     font-family: Nunito;
   }
 
+  .sm\:font-main-semibold {
+    font-family: RobotoSemiBold;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -85496,6 +85510,10 @@ video {
 
   .md\:font-header {
     font-family: Nunito;
+  }
+
+  .md\:font-main-semibold {
+    font-family: RobotoSemiBold;
   }
 
   .md\:text-xs {
@@ -116947,6 +116965,10 @@ video {
     font-family: Nunito;
   }
 
+  .lg\:font-main-semibold {
+    font-family: RobotoSemiBold;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -148396,6 +148418,10 @@ video {
     font-family: Nunito;
   }
 
+  .xl\:font-main-semibold {
+    font-family: RobotoSemiBold;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -179843,6 +179869,10 @@ video {
 
   .\32xl\:font-header {
     font-family: Nunito;
+  }
+
+  .\32xl\:font-main-semibold {
+    font-family: RobotoSemiBold;
   }
 
   .\32xl\:text-xs {

@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         'main': ['Roboto'],
         'header': ['Nunito'],
+        'main-semibold': ['RobotoSemiBold'],
       },
       rotate: {
         '270': '270deg',
