@@ -12,18 +12,27 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
-    <script src="scripts/smoothscroll.js"></script>
+    <script>
+      import smoothscroll from "smoothscroll-polyfill";
+
+      // kick off the polyfill!
+      smoothscroll.polyfill();
+    </script>
 
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="font-main">
-    <button class="fixed w-12 h-12 transition-all transform translate-y-0 bg-indigo-600 rounded-full opacity-1 scrollup bottom-8 right-8 500ms ease hideBtn"></button>
+    <button
+      class="fixed w-12 h-12 transition-all transform translate-y-0 bg-indigo-600 rounded-full opacity-1 scrollup bottom-8 right-8 500ms ease hideBtn"
+    ></button>
     <div class="bg-indigo-500 border-b border-indigo-700 shadow-xl nav-wrapper">
       <div
         class="flex flex-col items-center max-w-screen-lg px-4 py-3 mx-auto space-y-3 text-indigo-100 lg:flex-row lg:space-y-0 navbar"
       >
         <div class="flex items-center flex-auto gap-4 group title">
-          <div class="transition ease-in-out transform 200ms group-hover:rotate-270">
+          <div
+            class="transition ease-in-out transform 200ms group-hover:rotate-270"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-7 h-7 lg:w-8 lg:h-8"
@@ -77,18 +86,10 @@
         </nav>
       </div>
     </div>
-    <div class="w-full bg-purple-400 blankspace h-96">
-
-    </div>
-    <div class="w-full bg-red-400 blankspace h-96">
-
-    </div>
-    <div class="w-full bg-blue-400 blankspace h-96">
-
-    </div>
-    <div class="w-full bg-gray-400 blankspace h-96">
-
-    </div>
+    <div class="w-full bg-purple-400 blankspace h-96"></div>
+    <div class="w-full bg-red-400 blankspace h-96"></div>
+    <div class="w-full bg-blue-400 blankspace h-96"></div>
+    <div class="w-full bg-gray-400 blankspace h-96"></div>
     <script src="scripts/script.js"></script>
   </body>
 </html>
