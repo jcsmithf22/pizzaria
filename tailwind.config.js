@@ -16,7 +16,6 @@ module.exports = {
     extend: {
       rotate: ['group-hover'],
       scale: ['group-hover'],
-      translate: ['hover'],
     },
   },
   plugins: [],
