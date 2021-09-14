@@ -32381,6 +32381,24 @@ video {
   background-position: left;
 }
 
+.image-container1 {
+  background: url(../images/heart_pizza.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-container2 {
+  background: url(../images/ice_cream.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.image-container3 {
+  background: url(../images/inside_building.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
