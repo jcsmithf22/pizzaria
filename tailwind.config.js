@@ -4,20 +4,23 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'main': ['Roboto'],
-        'header': ['Nunito'],
-        'main-semibold': ['RobotoSemiBold'],
+        main: ["Roboto"],
+        header: ["Nunito"],
+        "main-semibold": ["RobotoSemiBold"],
       },
       rotate: {
-        '270': '270deg',
+        270: "270deg",
+      },
+      spacing: {
+        xsmax: "50vh",
       },
     },
   },
   variants: {
     extend: {
-      rotate: ['group-hover'],
-      scale: ['group-hover'],
+      rotate: ["group-hover"],
+      scale: ["group-hover"],
     },
   },
   plugins: [],
-}
+};
