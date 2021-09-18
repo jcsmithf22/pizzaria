@@ -12,10 +12,9 @@ const callback = (entries, observer) => {
 };
 
 const scrollTop = () => {
-  window.scroll({ top: 0, left: 0, behavior: 'smooth' });
-}
+  window.scroll({ top: 0, left: 0, behavior: "smooth" });
+};
 scrollTopBtn.addEventListener("click", scrollTop);
-
 
 let observer = new IntersectionObserver(callback);
 observer.observe(target);
